@@ -8,6 +8,7 @@ on:
     branches: [ "1-integration-compile-phase" ]
   pull_request:
     branches: [ "1-integration-compile-phase" ]
+  workflow_dispatch:
 
 jobs:
   build:
